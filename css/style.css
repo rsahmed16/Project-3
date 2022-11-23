@@ -57,6 +57,15 @@ body {
     /* font-size: 1.5rem; */
 }
 
+map{
+  position: absolute;
+  width: 60%;
+  height: 500px;
+  right: 20%;
+  border: solid blue 5px;
+  color: black;
+  border-radius: 10px;
+}
 header{
   width: 100%;
 }
@@ -128,12 +137,4 @@ footer{
   display: block;
   color: #b25092;
 }
-#map{
-  position: absolute;
-  width: 60%;
-  height: 500px;
-  right: 20%;
-  border: solid blue 5px;
-  color: black;
-  border-radius: 10px;
-}
+
