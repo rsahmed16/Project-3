@@ -1,7 +1,7 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     center: {lat: 41.880193, lng: -87.633866},
-    zoom: 13,
+    zoom: 10,
   });
 
   var marker1 = new google.maps.Marker({
@@ -9,7 +9,7 @@ function initMap() {
     map: map,
   });
 
-  var text1 = "My Favorite Shop";
+  var text1 = "My Favorite Place to Visit";
 
   var info1 = new google.maps.InfoWindow({
     content: text1,
