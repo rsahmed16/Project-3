@@ -128,3 +128,69 @@ footer{
   display: block;
   color: #b25092;
 }
+#wrapper{
+  width: 750px;
+  height: 540px;
+  background-color: #FDFEFE;
+  margin: auto;
+}
+
+#map{
+  width: 700px;
+  height: 540px;
+  background-color: #DE3163;
+  margin: auto; 
+}
+
+.slider div{
+  background-color: #DE3163;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.bx-viewport {
+  background-color: #DE3163;
+  margin: auto;
+}
+
+.bx-wrapper {
+  width: 1000px;
+  margin: auto;
+}
+
+.slider {
+  margin: auto;
+}
+
+.bx-clone{
+  background-color: #DE3163;
+}
+
+.bx-pager.bx-default-pager a:hover{
+  background: #DE3163;
+}
+li{
+  padding-left: 10px;
+  font-weight: bold;
+}
+p ~ p{
+  padding-top: 5px;
+}
+p {
+  font-weight: bold;
+}
+nav{
+  height: 30px;
+  margin-top: 10px;
+}
+section{
+  padding: 10px 0;
+}
+div div{
+  padding: 0 10px;
+}
+main{
+  padding: 0 10px;
+}
