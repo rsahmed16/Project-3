@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Maps</title>
-      <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
-      <script async src="js/script.js"></script>
-      <script async
-         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4zEt1NP2SfIBg4RqoM0rt_KPkMCRmJw4&callback=initMap"></script>
-   </head>
-   <body>
-      <nav id="navigation">
-         <ul>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Map</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/map.js"></script>
+  <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXyQh5ZL7GKXbGQX2zjBfZN98dRUfHyxo&callback=initMap"
+    defer>
+  </script>
+</head>
+
+<body>
+  
+  <header>
+    <nav id="main-navbar">
+      <div id="navbar-container">
+        <ul>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="foodiespot.html">Foodie Spot!!</a></li>
             <li><a href="index.html">Cover Letter</a></li>
             <li><a href="maps.html">Maps</a></li>
-         </ul>
-      </nav>
-      <header>
-         <h1>
-            Map of My Uni:
-         </h1>
-      </header>
-      <div id="map"></div>
-   </body>
-</html>
+        </ul>
+      </div> 
+    </nav>
+  </header>  
+  
+  <div id="wrapper">
+    <div id="map"></div>
+  </div>
+
+</body>
