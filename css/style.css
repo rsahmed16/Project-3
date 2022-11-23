@@ -174,23 +174,3 @@ footer{
 .bx-pager.bx-default-pager a:hover{
   background: #DE3163;
 }
-li{
-  padding-left: 10px;
-  font-weight: bold;
-}
-p ~ p{
-  padding-top: 5px;
-}
-p {
-  font-weight: bold;
-}
-nav{
-  height: 30px;
-  margin-top: 10px;
-}
-section{
-  padding: 10px 0;
-}
-div div{
-  padding: 0 10px;
-}
