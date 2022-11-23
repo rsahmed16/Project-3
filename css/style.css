@@ -145,7 +145,7 @@ footer{
   margin: auto; 
 }
 
-@slider div{
+.slider div{
   background-color: #DE3163;
   margin: auto;
   align-items: center;
@@ -153,24 +153,24 @@ footer{
   display: flex;
 }
 
-@bx-viewport {
+.bx-viewport {
   background-color: #DE3163;
   margin: auto;
 }
 
-@bx-wrapper {
+.bx-wrapper {
   width: 1000px;
   margin: auto;
 }
 
-@slider {
+.slider {
   margin: auto;
 }
 
-@bx-clone{
+.bx-clone{
   background-color: #DE3163;
 }
 
-@bx-pager.bx-default-pager a:hover{
+.bx-pager.bx-default-pager a:hover{
   background: #DE3163;
 }
