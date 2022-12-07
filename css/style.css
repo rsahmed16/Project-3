@@ -181,7 +181,7 @@ footer{
 		display: inline-block;
 	}
 	section h1, section p{
-		float: left;
+		float: none;
 	}
 
 
