@@ -174,3 +174,24 @@ footer{
 .bx-pager.bx-default-pager a:hover{
   background: #DE3163;
 }
+
+@media screen and (min-width: 700px){
+	section{
+		height: max-content;
+		display: inline-block;
+	}
+	section h1, section p{
+		float: left;
+	}
+
+
+@media screen and (min-width: 1000px) {
+	img{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		padding: 5px 0;
+  	}
+  	main{
+		padding: 0 10px;
+	}
