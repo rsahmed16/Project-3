@@ -143,11 +143,7 @@ section {
 section section {
   padding: 0 10px;
 }
-
-main {
-  padding: 0 10px;
-}
-
+a
 footer {
   display: block;
   color: #b25092;
@@ -205,7 +201,7 @@ body {
     /* font-size: 1.5rem; */
   }
 @media screen and (min-width: 700px) {
-   .image-holder img{
+  .image-holder img {
     width: auto;
   }
 
@@ -218,9 +214,20 @@ body {
       height: 100%;
       width: 100%;
       object-fit: cover;
-      padding: 5px 0;
     }
 
     main {
       padding: 0 10px;
     }
+
+    @media screen and (min-width: 700px) {
+      .image-holder img {
+        width: auto;
+      }
+
+      header {
+        width: 100%;
+      }
+    }
+  }
+}
