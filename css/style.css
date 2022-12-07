@@ -197,13 +197,16 @@ footer {
   background: #DE3163;
 }
 
-@media screen and (min-width: 700px) {
-  body {
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #d2c2dc;
     font-size: 1em;
     font-weight: 500;
     /* font-size: 1.5rem; */
+  }
+@media screen and (min-width: 700px) {
+   .image-holder img{
+    width: auto;
   }
 
   header {
